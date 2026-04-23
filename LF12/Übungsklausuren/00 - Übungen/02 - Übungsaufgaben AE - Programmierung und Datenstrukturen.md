@@ -1,0 +1,54 @@
+---
+{}
+---
+# Schwerpunkt Datenbanken - mit ein bisschen Programmierung & Datenstrukturen (2023-Herbst)
+## Anwendungsentwicklung Teil 1
+### Aufgabe 3
+* Datenbanken Theorie (LF 5 / LF 8)
+	* Eigenschaften von Datenbanksystemen
+	* dokumentenbasierte vs. relationales Datenbankmodell
+
+### Aufgabe 4
+* Daten austauschen (LF 5)
+	* JSON
+* Datenbanken Theorie (LF 8)
+	* dokumentenbasierte vs. relationales Datenbankmodell
+	* ER-Modell (auf korrekte Verwendung der Modellelemente achten!)
+* Benutzeroberflächen gestalten (LF 10)
+	* GUI-Elemente zur Darstellung für Datenvisualisierung
+
+## Anwendungsentwicklung Teil 2
+
+### Aufgabe 2
+* Software entwickeln (LF 5)
+	* ein vorgegebenes Problem inkl. Lösung in einen Algorithmus überführen
+	* Umgang mit Datenstrukuren (Array)
+
+### Aufgabe 3
+* Datenbanken Theorie (LF 5 / LF 8)
+	* Normalformen
+	* relationale Datenmodelle
+* Daten speichern und verarbeiten (LF 5)
+	* Speicherbedarf berechnen
+
+### Aufgabe 4
+* SQL-Anweisungen lesen & schreiben (LF 8)
+
+### (2021-Herbst, AO 1997) Aufgabe 4
+- ER-Modell erstellen (LF 8)
+- Datenbank Theorie (LF 5)
+
+### (2021-Herbst, AO 1997) Aufgabe 5
+* Umgang mit SQL (LF 5 / LF 8)
+# Schwerpunkt Programmierung (2021-Herbst, AO 1997)
+
+## Anwendungsentwicklung Teil 1
+
+### Aufgabe 2
+- Klassendiagramme lesen (LF 11)
+- Code schreiben & Algorithmen implementieren (LF 5 / LF 8)
+
+### Aufgabe 3
+- Klassendiagramm erstellen (LF 11)
+- Theorie Objektorientierung (LF 8)
+- Sequenzdiagramm ergänzen (LF 11)

@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - **Anhänge**
 	- [[image.png]]
+- [[! Themenwünsche]]
 - [[!Planung]]
 - [[Code-Analyse (Schreibtischtest)]]
 - [[Datenbanken planen]]
@@ -9,8 +10,10 @@
 - [[Noten - Passworte für Musterlösungen]]
 - [[Objektorientierte Programmierung - Lsg]]
 - [[Objektorientierte Programmierung]]
+- [[Objektorientierung und Entwurfsmuster (Design Patterns)]]
 - [[Prozessanalyse mit Aktivitätsdiagramm]]
 - [[Pseudo-Code]]
+- [[Speicher und RAID]]
 - [[Testing - Pfad- und Zweigüberdeckung]]
 - [[UML Sequenzdiagramm]]
 - [[Wirtschaftlichkeit und Nutzwertanalyse]]
