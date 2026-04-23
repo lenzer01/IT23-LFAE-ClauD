@@ -1,0 +1,48 @@
+# Objektorientierung und Entwurfsmuster (Design Patterns) (25 Punkte)
+
+**Ausgangssituation:** Die _SmartHome Solutions GmbH_ entwickelt eine zentrale Heizungssteuerung. Das Kernstück der Software ist das Objekt `Thermostat`, welches sekündlich die aktuelle Raumtemperatur misst. Diese Temperatur soll live an verschiedenen Stellen im Haus angezeigt werden: auf einem `WandDisplay` im Flur sowie in einer `SmartphoneApp`.
+
+Damit die Software wartbar und leicht erweiterbar bleibt (falls später z. B. noch eine Web-Anzeige dazukommt), hat der Software-Architekt entschieden, dass sich das `Thermostat` nicht aktiv um die Anzeigen kümmern darf. Stattdessen soll das **Observer-Pattern (Beobachter-Muster)** angewendet werden, bei dem sich die Anzeigen am Thermostat registrieren und bei Änderungen automatisch benachrichtigt werden.
+
+**Aufgaben:**
+
+**a)** Entwurfsmuster lassen sich in drei grundlegende Kategorien unterteilen. Nennen Sie die Kategorie, zu der das _Observer-Pattern_ gehört, und nennen Sie zusätzlich **zwei** weitere Kategorien inklusive jeweils einem beispielhaften Entwurfsmuster. _(6 Punkte)_
+
+Es gibt strukturelle, Verhaltenstechnische und kreationale Entwurfsmuster (Creational, structural and behavioral design patterns). Das Observer-Pattern gehört zu den behavioral design patterns. Zum strukturellen Muster gehören z.B. Klassen und zu kreationalen Mustern gehört das Singleton.
+
+
+**b)** Erläutern Sie anhand der Ausgangssituation, wie das Observer-Pattern technisch funktioniert und warum es hier genau die richtige Wahl ist. _(4 Punkte)_
+
+Beim Observer-Pattern wird der Austausch von Informationen auf zwei Rollen aufgeteilt: Eine Seite, nennen wir ihn "Informant", stellt Informationen zur Verfügung, in diesem Fall wäre das das Thermostat. Das passiert über eine (öffentliche) Schnittstelle. Die andere Seite bilden die Observer. Sie fragen die Schnittstelle ab, um die Informationen zu bekommen und entsprechend zu verarbeiten. In diesem Beispiel wären das das Wanddisplay und die Mobilapp.
+Da sich der Informant nur darum kümmert, dass die Information über die Schnittstelle erreichbar ist, ist die Architektur der Software daher fast beliebig hoch skalierbar. Es könnten theoretisch beliebig viele Geräte die Schnittstelle abfragen und die Temperatur anzeigen. Das macht dieses pattern so perfekt für diesen Anwendungsfall.
+
+
+**c)** Sie sollen die Vorgabe des Architekten in einem UML-Klassendiagramm modellieren. Folgende Struktur ist vorgegeben:
+
+- Es gibt die Interfaces `ObservedSubject` (mit den Methoden `addObserver`, `removeObserver`, `notifyObservers`) und `Observer` (mit der Methode `update`).
+- Die Klasse `Thermostat` implementiert das Subjekt. Sie besitzt eine interne Liste für die registrierten Observer sowie die private Eigenschaft `temperatur` (inkl. passender get- und set-Methoden).
+- Die Klassen `WandDisplay` und `SmartphoneApp` implementieren das Observer-Interface und besitzen jeweils eine Methode `display()`, um die Temperatur grafisch auszugeben.
+
+Erstellen Sie das entsprechende UML-Klassendiagramm. Achten Sie auf die korrekten Realisierungsbeziehungen (Pfeile für Interfaces) und gerichtete Assoziationen. _(11 Punkte)_
+
+
+
+
+**d)** Wenn sich die Temperatur ändert, wird intern die Methode `notifyObservers()` aufgerufen. Implementieren Sie die Methode `notifyObservers()` der Klasse `Thermostat` in Pseudocode oder in einer Ihnen bekannten Programmiersprache (z. B. Java oder C#). _(4 Punkte)_
+
+````
+notifyObservers() 
+{
+	for(int i = 0; i<observerList.lenth(); i++)
+	{
+		alert(observerList[i]);
+		observerList[i].update();
+	}
+}
+````
+
+--------------------------------------------------------------------------------
+
+## Musterlösung und Bewertungshinweise (Aufgabe 2)
+
+🔐β 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 🔐
