@@ -1,0 +1,45 @@
+### 9. Handlungsschritt (25 Punkte)
+
+**Ausgangssituation:** Die _LogiTrack GmbH_ entwickelt eine Versandsoftware für Online-Händler. Sie wurden beauftragt, die Qualitätssicherung für ein neues Modul zur Portoberechnung durchzuführen.
+
+Ihnen liegt der folgende Pseudocode der Methode `berechnePorto` vor. Die Funktion berechnet die Versandkosten basierend auf dem Gewicht des Pakets und der Auswahl der Express-Option.
+
+**Pseudocode:**
+
+```
+01 berechnePorto(gewicht: Double, express: Boolean) : Double
+02     porto := 5.00
+03
+04     WENN gewicht > 10.0 DANN
+05         porto := porto + 3.00
+06     ENDE WENN
+07
+08     WENN express == TRUE DANN
+09         porto := porto * 1.50
+10     ENDE WENN
+11
+12     RÜCKGABE porto
+13 ende berechnePorto
+```
+
+Um die Funktionsfähigkeit des Codes sicherzustellen, sollen White-Box-Tests entworfen werden.
+
+**Aufgaben:**
+
+**a)** Im White-Box-Testing gibt es verschiedene Metriken. Erläutern Sie fachlich präzise die Begriffe **Zweigüberdeckung (Branch Coverage)** und **Pfadüberdeckung (Path Coverage)**. _(6 Punkte)_
+
+**b)** Ermitteln Sie für den oben stehenden Pseudocode die **minimal notwendige Anzahl an Testfällen**, um jeweils eine 100%ige Überdeckung der folgenden Metriken zu erreichen: _(6 Punkte)_
+
+1. Anweisungsüberdeckung (Statement Coverage)
+2. Zweigüberdeckung
+3. Pfadüberdeckung
+
+**c)** Ihr Team entscheidet sich für eine vollständige (100%ige) **Pfadüberdeckung**. Erstellen Sie eine Testfall-Tabelle, die alle benötigten Testfälle abbildet. Geben Sie für jeden Testfall konkrete Eingangswerte (`gewicht`, `express`) sowie den zu erwartenden Rückgabewert (`porto`) an. _(8 Punkte)_
+
+**d)** Ein Junior-Entwickler behauptet: _"Wenn wir eine 100%ige Pfadüberdeckung erreicht haben, ist mathematisch bewiesen, dass unsere Funktion absolut fehlerfrei ist und in Produktion gehen kann."_ Nehmen Sie Stellung zu dieser Aussage und nennen Sie einen konkreten Grund, warum diese Behauptung in der Praxis falsch ist. _(5 Punkte)_
+
+---
+
+### Musterlösung und Bewertungshinweise
+
+🔐β 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 🔐

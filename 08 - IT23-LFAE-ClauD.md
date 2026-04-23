@@ -20,12 +20,14 @@
 	- [[Pasted Image 20230517153924_163.jpg]]
 	- [[Pasted Image 20240722121149_455.jpg]]
 	- [[Unbenannt]]
+- **[[Biboxen]]**
 - **[[Excel-Übung]]**
 - **[[LF10]]**
 - **[[LF12]]**
 	- **[[03 - Entwicklung eines kleinen Software-Projekts.excalidraw 1.file]]**
 	- **Anhänge**
 		- [[ChatGPT Image 9. Apr. 2025, 22_35_31.png]]
+		- [[image.png]]
 		- [[Pasted Image 20230827132026_627.png]]
 		- [[Pasted Image 20230927155300_053.png]]
 		- [[Pasted Image 20230927155537_058.png]]
@@ -74,6 +76,7 @@
 	- [[06 - Wiederholung SQL JOIN.excalidraw]]
 	- [[07 - Entity Relationship Modell und Diagramm (ERM und ERD).excalidraw]]
 	- [[07 - Entity Relationship Modell und Diagramm (ERM und ERD)]]
+	- [[07a - Vom ER-Diagramm zum relationalen Datenbankmodell]]
 	- [[08 - Übung SQL und JOIN]]
 	- [[08 - Weinhandel Herbst2023 DB.db]]
 	- [[08 - Weinhandel Herbst2023.sql]]
@@ -85,8 +88,9 @@
 	- [[09 - Algorithmen entwickeln Musterlösungen (Python)]]
 	- [[09 - Algorithmen entwickeln]]
 	- [[10 - MergeSort Übungsimplementierung]]
-	- [[11 - Entwicklung eines gemeinsamen Software-Projekts.excalidraw.excalidraw]]
 	- [[11 - Entwicklung eines gemeinsamen Software-Projekts.excalidraw]]
+	- [[11a - Text für Vorbereitung Kundengespräch]]
+	- [[11a - Vorbereitung Kundengespräch.excalidraw]]
 	- [[12 - Design Pattern.excalidraw]]
 	- [[12a - Info Design pattern]]
 	- [[12a - Übungsaufgaben Design Pattern]]
@@ -115,6 +119,7 @@
 	- [[99 - Mögliche Projekte]]
 	- [[Bsp_Dokumentation.pdf]]
 	- [[Praktische Software-Entwicklung unter Verwendung von LLM (am Beispiel von Anthropic Claude)]]
+- **[[Übungsaufgaben IHK-ähnlich]]**
 - [[(OS) Notenliste Rückmeldung Anschreiben f. Chat.docx]]
 - [[00 - Musterlösungen Klausur IT23 1]]
 - [[00 - Übersicht.excalidraw]]
@@ -129,11 +134,10 @@
 - [[Notenliste (OS-1).xlsx]]
 - [[Notenliste (OS-2).xlsx]]
 - [[Prüfungsthemen AP2]]
+- [[Prüfungswiederholungswünsche]]
 - [[README]]
 - [[ShareMyPlugin]]
 - [[Themenspeicher]]
-- [[tic_tac_toe_test.py]]
-- [[tic_tac_toe.py]]
 - [[Verbesserungsideen Unterricht]]
 
 %% End Waypoint %%
